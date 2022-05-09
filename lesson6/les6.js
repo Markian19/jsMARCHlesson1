@@ -156,8 +156,13 @@ let newArray = [
 
         {cardSuit: 'clubs', value: 'ace', color: 'black'},
 
-        {value: 'joker'},
+        {cardSuit: 'joker',color: 'black'},
 
-        {value: 'joker'}
+        {cardSuit: 'joker',color: 'red'}
 
     ];
+console.log(newArray.find(value => value.cardSuit === 'spade' && value.value === 'ace'));
+console.log(newArray.filter(value =>  value.value === '6'));
+console.log(newArray.filter(value =>  value.color === 'red'));
+console.log(newArray.filter(value =>  value.cardSuit === 'diamond'));
+console.log(newArray.filter(value =>  value.cardSuit === 'clubs' && value.value >'8'));
