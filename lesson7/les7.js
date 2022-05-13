@@ -102,7 +102,7 @@ newCar.increaseMaxSpeed(80)
 console.log(newCar);
 newCar.changeYear(2022)
 console.log(newCar)
-newCar.addDriver('ivan')
+newCar.addDriver({name:'ivan'})
 //
 //
 // - (Те саме, тільки через клас)
