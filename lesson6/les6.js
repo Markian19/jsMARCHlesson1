@@ -45,8 +45,16 @@ let mapArr = arr.map(function (value) {
 console.log(mapArr);
 // - створити функцію sortNums(direction), яка прймає масив чисел, та сортує його від більшого до меньшого, або навпаки в залежності від значення аргументу direction.
     let nums = [11,21,3];
-    console.log(nums.sort((n1,n2) => n1 - n2 ));
-console.log(nums.sort((n1,n2) => n2 - n1 ));
+  let sortN = (ar,direction) =>{
+      if(direction ==='ascending' ){
+          ar.sort((x,y) => x - y)
+      }else if(direction === 'descending'){
+          ar.sort((x,y) => y-x)
+      }
+      return ar
+  }
+  console.log(sortN(nums,'ascending'))
+console.log(sortN(nums,'descending'))
 // sortNums(nums,'ascending') // [3,11,21]
 // sortNums(nums,'descending') // [21,11,3]
 //
