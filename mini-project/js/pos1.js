@@ -11,7 +11,6 @@ fetch(`https://jsonplaceholder.typicode.com/posts/${locStr}`)
         document.body.appendChild(allWrap2);
         allWrap2.appendChild(userComment);
 
-
         fetch(`https://jsonplaceholder.typicode.com/posts/${locStr}/comments`)
             .then(value1 => value1.json())
             .then(value1 => {

@@ -15,7 +15,7 @@ border: 3px solid black;
     margin-left: 5%;
     width: 90%
 }
-.comment1{
+.comment1 {
     display: flex;
     justify-content: center;
     align-items: center;

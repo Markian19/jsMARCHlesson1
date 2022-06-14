@@ -5,6 +5,7 @@ fetch(`https://jsonplaceholder.typicode.com/users`)
         let allWrap = document.createElement('div');
         allWrap.classList.add('wrap');
 
+
         for (const itemUser of value) {
             let userDiv = document.createElement('div');
             userDiv.classList.add('userDiv');

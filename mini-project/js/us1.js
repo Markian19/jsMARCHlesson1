@@ -5,6 +5,7 @@ let userId = localStorage.getItem('userId');
 fetch(`https://jsonplaceholder.typicode.com/users/${userId}`)
 .then(value => value.json())
 .then(value => {
+
     let userInf = document.createElement('div');
     userInf.classList.add('userInf');
     userInf.innerHTML = `<h4>ID: ${value.id}</h4>
