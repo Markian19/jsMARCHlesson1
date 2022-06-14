@@ -1,0 +1,25 @@
+body{
+    margin-top: 0px;
+    margin-left: 0px;
+}
+.wrap{
+display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.userDiv{
+    box-sizing: border-box;
+    width: 45%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    background: #2a82e5;
+}
+
+#button1{
+    width: 100px;
+}

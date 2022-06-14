@@ -1,0 +1,35 @@
+body{
+    margin-left: 0;
+    margin-top: 0;
+
+}
+
+.userInf{
+border: 3px solid black;
+    background: darkgrey;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.commentButton{
+    margin-top: 10px;
+    margin-left: 5%;
+    width: 90%
+}
+.comment1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.comment{
+    box-sizing: border-box;
+    width: 18%;
+    height: 150px;
+    margin: 10px;
+    background: grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

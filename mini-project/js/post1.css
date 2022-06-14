@@ -1,0 +1,23 @@
+.allW2{
+    border: 2px solid black;
+}
+.posts{
+    box-sizing: border-box;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.postcom{
+    box-sizing: border-box;
+    border: 2px solid black;
+    width: 40%;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 5px;
+}
